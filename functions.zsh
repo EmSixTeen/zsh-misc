@@ -10,7 +10,7 @@ emulate -LR zsh
 
 # Functions
 # =========
-source "./functions/go-to-site.zsh"
+source "$PWD/functions/go-to-site.zsh"
 
 ## Reload ZSH
 function reload() {
