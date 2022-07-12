@@ -12,7 +12,7 @@ emulate -LR zsh
 # =========
 
 # Source files
-# - This is not portable, but works for me so..
+# - This is not portable, but works for me so.. 
 #   https://stackoverflow.com/a/6659815/493159
 source $(dirname $0)/functions/go-to-site.zsh
 
