@@ -45,3 +45,7 @@ function removespaces() {
     do mv "$name" "${name// /_}"; 
     done
 }
+
+function updatelw() {
+    brew reinstall --cask librewolf --no-quarantine
+}
